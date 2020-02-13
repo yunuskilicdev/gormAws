@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"github.com/aws/aws-lambda-go/lambda"
-	"gormAws/db"
-	"gormAws/model"
+	"github.com/yunuskilicdev/gormAws/v2/db"
+	"github.com/yunuskilicdev/gormAws/v2/model"
 )
 
 type CreateUserRequest struct {
